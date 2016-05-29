@@ -1,0 +1,53 @@
+/**
+ * This is a support library for bovine development. It will allow you to both
+ * express yourself (as a cow) and take a shit (as a cow).
+ */
+
+var horridGlobalCowVariable = 'This is wrong, but it feels kind of right...';
+
+function getRandomFunction(min, max){
+  if(min >= max){
+    throw Error('You are an idiot.');
+  }
+
+  return Math.floor(Math.random() * max) + min;
+}
+
+function mooh(reason){
+  var age = 8; // Quite an old cow
+  age = 4; // Younger now...
+  var name = 'Rosa';
+  var unusedCowVariable;
+
+  console.log(name + ' likes to eat grass and mooh. Why? ' + reason);
+}
+
+function shit(reason){
+  var digestionProblems = true;
+  var planetaryDanger = false; // Don't blame the fucking cows!
+
+  for(var i = 0; i < getRandomFunction(1, 10); i++){
+    var pat = 'Pat number ' + i;
+    console.log('PRODUCTION: ' + pat);
+  }
+}
+
+// A pretty static cow class
+class Cow {
+    constructor(cowbell){
+        if(cowbell){
+            // Kill Walken...
+        }
+    }
+
+    name(){
+        return "Mr Cowland";
+    }
+
+    age(){
+        return 7;
+    }
+}
+
+var cow1 = new Cow(false);
+var cow2 = new Cow(true);

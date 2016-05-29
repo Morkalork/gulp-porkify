@@ -1,0 +1,37 @@
+{
+  "name": "porkify",
+  "version": "0.0.1",
+  "description": "Oink oink *squeeeel*",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Morkalork/porkify.git"
+  },
+  "keywords": [
+    "pig",
+    "bacon",
+    "oink",
+    "porcelain"
+  ],
+  "author": "Magnus Ferm <maffelu@gmail.com> (http://maffelu.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Morkalork/porkify/issues"
+  },
+  "homepage": "https://github.com/Morkalork/porkify#readme",
+  "devDependencies": {
+    "tap-colorize": "^1.2.0",
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "extend": "^3.0.0",
+    "grasp": "^0.4.0",
+    "gulp-util": "^3.0.7",
+    "random-js": "^1.0.8",
+    "rename-variables": "^0.1.1",
+    "through2": "^2.0.1"
+  }
+}
